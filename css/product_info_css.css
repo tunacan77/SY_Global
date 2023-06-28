@@ -1,0 +1,67 @@
+/**{
+    outline:1px solid rgb(0, 0, 0);
+}*/
+.seafood_group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seafood_left{
+    width: 45%;
+    /*text-align: center;*/
+}
+
+.seafood_right{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.seafood_right h3{
+    margin-top: 32px; 
+}
+.seafood_right h4{
+    margin-top: 8px; 
+}
+
+.seafood_right p{
+    margin-top: 24px;
+    text-align: justify;
+    color: #555;
+}
+
+.CFQ{
+    border: 1px solid black;
+    padding: 16px 32px 16px 32px;
+}
+
+.CFQ:hover{
+    color: #e0c689;
+    background-color: #222;
+    transition: 0.5s;
+}
+
+.bluetxt{
+    color: white;
+    padding: 8px;
+    background-color: rgb(48, 142, 237);
+}
+
+@media (max-width: 768px) {
+    .seafood_group{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    .seafood_left{
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .seafood_right{
+        width: 100%;
+        
+    }
+    
+}
